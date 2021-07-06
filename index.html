@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Ethan Moon</title>
+    <link rel="stylesheet" href="style/normalize.min.css" />
+    <style type="text/css">
+        *, p, ul, li, article, footer {
+            font-family: 'Libre Franklin', sans-serif;
+        }
+
+        h1 {
+            font-family: 'Libre Baskerville', serif;
+            margin: 1em;
+        }
+
+        figcaption,
+        blockquote,
+        article {
+          margin: 1em;
+        }
+
+        blockquote p::before {
+            content: '\201C';
+        }
+
+        blockquote p::after {
+            content: '\201D';
+        }
+
+        body {
+            background-color: #ffffcc;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 0;
+            margin: 2em;
+        }
+
+        .red {
+            color: #cc0033;
+        }
+
+        .marginalia {
+            margin-left: 1em;
+        }
+
+        /* libre-baskerville-regular - latin */
+        @font-face {
+          font-family: 'Libre Baskerville';
+          font-style: normal;
+          font-weight: 400;
+          src: url('../fonts/libre-baskerville-v9-latin-regular.eot'); /* IE9 Compat Modes */
+          src: local(''),
+               url('../fonts/libre-baskerville-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+               url('../fonts/libre-baskerville-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+               url('../fonts/libre-baskerville-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+               url('../fonts/libre-baskerville-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        }
+
+        /* libre-franklin-regular - latin */
+        @font-face {
+          font-family: 'Libre Franklin';
+          font-style: normal;
+          font-weight: 400;
+          src: url('../fonts/libre-franklin-v7-latin-regular.eot'); /* IE9 Compat Modes */
+          src: local(''),
+               url('../fonts/libre-franklin-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+               url('../fonts/libre-franklin-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+               url('../fonts/libre-franklin-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+               url('../fonts/libre-franklin-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+               url('../fonts/libre-franklin-v7-latin-regular.svg#LibreFranklin') format('svg'); /* Legacy iOS */
+        }
+        /* libre-franklin-700 - latin */
+        @font-face {
+          font-family: 'Libre Franklin';
+          font-style: normal;
+          font-weight: 700;
+          src: url('../fonts/libre-franklin-v7-latin-700.eot'); /* IE9 Compat Modes */
+          src: local(''),
+               url('../fonts/libre-franklin-v7-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+               url('../fonts/libre-franklin-v7-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+               url('../fonts/libre-franklin-v7-latin-700.woff') format('woff'), /* Modern Browsers */
+               url('../fonts/libre-franklin-v7-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+               url('../fonts/libre-franklin-v7-latin-700.svg#LibreFranklin') format('svg'); /* Legacy iOS */
+        }
+        /* libre-franklin-italic - latin */
+        @font-face {
+          font-family: 'Libre Franklin';
+          font-style: italic;
+          font-weight: 400;
+          src: url('../fonts/libre-franklin-v7-latin-italic.eot'); /* IE9 Compat Modes */
+          src: local(''),
+               url('../fonts/libre-franklin-v7-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+               url('../fonts/libre-franklin-v7-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+               url('../fonts/libre-franklin-v7-latin-italic.woff') format('woff'), /* Modern Browsers */
+               url('../fonts/libre-franklin-v7-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+               url('../fonts/libre-franklin-v7-latin-italic.svg#LibreFranklin') format('svg'); /* Legacy iOS */
+        }
+    </style>
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <h1>Ethan Moon<span class="red">*</span></h1>
+        <figure>
+            <blockquote><p>Wonder: the eruption of eternity<br>into the pudding of the day.</p></blockquote>
+            <figcaption>&mdash; Colin Browne, <cite>The Properties</cite></figcaption>
+        </figure>
+    </header>
+    <br>
+    <article>
+        <ul>
+            <li>Vancouverite</li>
+            <li>Polyglot Programmer</li>
+            <li><a href="mailto:&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#46;&#101;&#116;&#104;&#97;&#110;&#109;&#111;&#111;&#110;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;"><b>Email me</b></a></li>
+        </ul>
+        <br>
+        <br>
+        <p class="red marginalia">*Sorry, this is not a web app.<p>
+    </article>
+    <script type="text/javascript">
+        let x = document.createElement("FOOTER");
+        x.innerHTML = "&#169; " + new Date().getFullYear() + " Ethan Moon";
+        document.body.appendChild(x);
+    </script>
+    <noscript>
+    <noscript>
+</body>
+</html>
